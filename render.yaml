@@ -1,7 +1,7 @@
 services:
   # Backend Service
   - type: web
-    name: TUNorth-BRMS_BACKEND
+    name: tunorth-brms-render-backend
     runtime: docker
     dockerfilePath: ./Dockerfile
     dockerContext: .
